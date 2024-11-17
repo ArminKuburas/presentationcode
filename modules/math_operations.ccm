@@ -1,0 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   math_operations.ixx                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/11/17 19:36:23 by akuburas          #+#    #+#             */
+/*   Updated: 2024/11/17 19:36:24 by akuburas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+export module math_operations;
+
+export int add(int a, int b) {
+	return a + b;
+}
+
+export int subtract(int a, int b) {
+	return a - b;
+}
+
+export int multiply(int a, int b) {
+	return a * b;
+}
+
+export int divide(int a, int b) {
+	return a / b;
+}
